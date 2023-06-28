@@ -12,6 +12,7 @@
     },
     "rules": {
         "no-console": "off",
-        "indent": "off"
+        "indent": "off",
+        "no-underscore-dangle": "off"
     }
 }
