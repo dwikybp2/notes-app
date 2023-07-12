@@ -35,7 +35,7 @@ class NotesService {
 
     async getNoteById(id) {
         const query = {
-            text: 'SELECT * FROM notes WHERE id = $i',
+            text: 'SELECT * FROM notes WHERE id = $1',
             values: [id],
         };
         const result = await this._pool.query(query);
