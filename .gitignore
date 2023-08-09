@@ -2,3 +2,7 @@
 notes-api-sg.pem
 notes-api-sg2.pem
 notes-api-webserver.pem
+notes-api-fix.pem
+.env
+.prod.env
+src/api/uploads/file
